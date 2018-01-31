@@ -1,0 +1,7 @@
+Started GET "/" for 127.0.0.1 at 2018-01-31 13:55:16 +0530
+Processing by ApplicationController#hellow as HTML
+  Rendering html template
+  Rendered html template (0.0ms)
+Completed 200 OK in 393ms (Views: 32.0ms)
+
+
