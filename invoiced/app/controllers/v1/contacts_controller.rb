@@ -11,7 +11,7 @@ class V1::ContactsController < ApplicationController
 	end
 
 	def destory
-		@contact = Contact.where(:id params[:id]).first
+		@contact = Contact.where(id: params[:id]).first
 		if @contact.destory
 			head(:ok)
 		else
